@@ -1,0 +1,32 @@
+$font-stack: 'Open Sans', sans-serif;
+$primary-color: #333;
+$bg-color:#f8f8f8;
+
+h1 {
+  font-weight: lighter;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $bg-color;
+  .main{
+    //background-image: url("../images/background.jpg");
+    background-color:#ffe5e5;
+    //background-size:contain;
+    //background-repeat: no-repeat;
+    height:95vh;
+    margin-top:1%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .title {
+    display: inline-block;
+    width:auto;
+    padding-left: 10%;
+    padding-top: 15%;
+    color: $bg-color;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #101010;
+  }
+}
