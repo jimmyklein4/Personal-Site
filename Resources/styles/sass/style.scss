@@ -6,27 +6,68 @@ h1 {
   font-weight: lighter;
 }
 
+h3 {
+  font-weight: lighter;
+  display: inline-block;
+  padding: 10%;
+  padding-top: 0%;
+}
+
 body {
   font: 100% $font-stack;
   color: $primary-color;
   background-color: $bg-color;
-  .main{
-    //background-image: url("../images/background.jpg");
-    background-color:#ffe5e5;
-    //background-size:contain;
-    //background-repeat: no-repeat;
-    height:95vh;
-    margin-top:1%;
-    margin-left: 3%;
-    margin-right: 3%;
+}
+
+.title {
+  margin: auto;
+  width:50%;
+  color: $primary-color;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.menu {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+
+#container{
+  margin:auto;
+  width: 120px;
+    #box {
+    margin: auto;
+    position: absolute;
+    height: 150px;
+    width: 120px;
+    border-radius: 3px;
+    background-color: #ffe5e5;
   }
-  .title {
-    display: inline-block;
-    width:auto;
-    padding-left: 10%;
-    padding-top: 15%;
-    color: $bg-color;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 1px #101010;
+  #screen {
+    position: absolute;
+    height: 70px;
+    width: 90px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-top: 12px;
+    background-color: $primary-color;
+  }
+  #floppy {
+    position: absolute;
+    height:2px;
+    width: 40px;
+    margin-left: 65px;
+    margin-top: 105px;
+    background-color: $primary-color;
+  }
+  #bottom {
+    position: absolute;
+    height: 20px;
+    width: 120px;
+    margin-top: 130px;
+    border-radius: 3px;
+    background-color: #ffd9d9;
   }
 }
